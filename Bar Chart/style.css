@@ -20,11 +20,17 @@ body{
   text-align: center;
 }
 
-.d3-tip {
+#tooltip {
+  position: absolute;
   background-color: #fff;
   border: 1px solid #000;
   font-size: 14px;
   padding: 10px;
+  background-color: steelblue;
+  opacity: 0.9;
+  border: solid 1px #000000;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.4);
+  border-radius: 5px;
 }
 
 .bar:hover {
