@@ -1,0 +1,32 @@
+body{
+    background-color: #808080;
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 2rem;
+    }
+
+#root{
+  padding: 20px;
+  margin: 10px;
+  background-color: #ffffff;
+  border: solid 1px #000000;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.4);
+  border-radius: 4px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.d3-tip {
+  background-color: #fff;
+  border: 1px solid #000;
+  font-size: 14px;
+  padding: 10px;
+}
+
+.bar:hover {
+  fill: #ffffff;
+}
